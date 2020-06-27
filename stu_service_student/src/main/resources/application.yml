@@ -1,0 +1,19 @@
+
+server:
+  port: 9091
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.82.103:3306/student_database
+dubbo:
+  application:
+    name: student_service
+  registry:
+    address: zookeeper://192.168.82.104:2181
+    #配置服务提供者的端口，默认是20880。  port:-1表示自行查找一个可用的端口
+  protocol:
+    port: -1
+  consumer:
+    check: false

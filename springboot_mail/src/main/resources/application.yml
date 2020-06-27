@@ -1,0 +1,7 @@
+spring:
+  mail:
+  #配置发送方协议，配置发送方服务器地址，发送方邮箱账户，发送方邮箱密码
+    protocol: smtp
+    host: smtp.163.com
+    username: guodong_166@163.com
+    password: 100739.w

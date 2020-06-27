@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!--**********************************引入父工程坐标*****************************************************-->
+	<parent>
+		<groupId>cn.sun</groupId>
+		<artifactId>stu_manager_dubbo</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>cn.sun</groupId>
+	<artifactId>stu_service_student</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>stu_service_student</name>
+	<description>Demo project for Spring Boot</description>
+	<!--**********************************版本控制*****************************************************-->
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+
+	<dependencies>
+		<!--**********************************引入实现的接口****************************************************-->
+		<dependency>
+			<groupId>cn.sun</groupId>
+			<artifactId>service_api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!--**********************************springboot核心依赖包*****************************************************-->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!--**********************************mysql数据库驱动*****************************************************-->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+			<version>5.1.38</version>
+		</dependency>
+		<!--**********************************引入mybatis-plus核心依赖包*******************************************-->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+		</dependency>
+
+		<!--**********************************添加服务依赖包*******************************************-->
+		<dependency>
+			<groupId>cn.sun</groupId>
+			<artifactId>service_api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!--**********************************添加dubbo核心包*******************************************-->
+		<dependency>
+			<groupId>com.alibaba.boot</groupId>
+			<artifactId>dubbo-spring-boot-starter</artifactId>
+		</dependency>
+
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/service_api/service_api.iml" filepath="$PROJECT_DIR$/service_api/service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mail/springboot_mail.iml" filepath="$PROJECT_DIR$/springboot_mail/springboot_mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stu_entity/stu_entity.iml" filepath="$PROJECT_DIR$/stu_entity/stu_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stu_manager_dubbo.iml" filepath="$PROJECT_DIR$/stu_manager_dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stu_service_class/stu_service_class.iml" filepath="$PROJECT_DIR$/stu_service_class/stu_service_class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stu_service_student/stu_service_student.iml" filepath="$PROJECT_DIR$/stu_service_student/stu_service_student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stu_web/stu_web.iml" filepath="$PROJECT_DIR$/stu_web/stu_web.iml" />
+    </modules>
+  </component>
+</project>

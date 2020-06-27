@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service_api" />
+        <module name="springboot_mail" />
+        <module name="stu_entity" />
+        <module name="stu_service_class" />
+        <module name="stu_service_student" />
+        <module name="stu_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service_api" target="1.8" />
+      <module name="springboot_mail" target="1.8" />
+      <module name="stu_entity" target="1.8" />
+      <module name="stu_manager_dubbo" target="1.8" />
+      <module name="stu_service_class" target="1.8" />
+      <module name="stu_service_student" target="1.8" />
+      <module name="stu_web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
